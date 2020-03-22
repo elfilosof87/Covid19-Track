@@ -22,9 +22,16 @@ class FaqSection extends Component {
     return (
       <div
         style={{
-          background: isOpen ? "#fae042" : "#6db65b",
-          border: "1px solid #008f68",
-          padding: "5px 10px"
+          background: isOpen ? "#555555" : "#777777",
+          color: "white",
+          cursor: "pointer",
+          padding: "25px 0px",
+          width: "100%",
+          margin: "0px 0px",
+          border: "none",
+          textAlign: "center",
+          outline: "none",
+          fontSize: "15px"
         }}
       >
         <div onClick={onClick} style={{ cursor: "pointer" }}>
@@ -37,10 +44,10 @@ class FaqSection extends Component {
         {isOpen && (
           <div
             style={{
-              background: "#6db65b",
-              border: "2px solid #008f68",
-              marginTop: 10,
-              padding: "10px 20px"
+              background: "#fff",
+              transition: "0.3s ease-in",
+              color: "black",
+              padding: "18px"
             }}
           >
             {this.props.children}

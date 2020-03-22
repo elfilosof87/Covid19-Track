@@ -29,7 +29,7 @@ export default class Faq extends Component {
                   </div>
                   <div
                     label=" Why is the disease being called coronavirus disease 2019,
-              COVID-19?"
+              COVID-19? <br> "
                   >
                     <p>
                       On February 11, 2020 the World Health Organization

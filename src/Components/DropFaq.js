@@ -59,7 +59,7 @@ class DropFaq extends Component {
     } = this;
 
     return (
-      <div style={{ border: "2px solid #008f68" }}>
+      <div>
         {children.map(child => (
           <FaqSection
             isOpen={!!openSections[child.props.label]}
