@@ -9,6 +9,11 @@ body {
   font-family: "Muli";
   height: auto;
   width: auto;
+  margin: 0 auto;
+  clear: both;
+}
+.marg-top {
+  margin-top: auto;
 }
 
 .covid-text {
@@ -25,6 +30,9 @@ body {
   font-size: 32px;
   margin-bottom: -10px;
   letter-spacing: 2px;
+}
+.back {
+  background-color: #ffc702;
 }
 
 .covid-nav-btn {
