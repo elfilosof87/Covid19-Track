@@ -7,7 +7,7 @@ export default class main extends Component {
         <center>
           <h1 class="covid-text-map">Covid-19 Statistics and Information</h1>
           <iframe
-            title="fram1"
+            title="frame1"
             src="https://public.domo.com/cards/bWxVg"
             width="900"
             height="600"

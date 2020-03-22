@@ -1,9 +1,9 @@
 import React, { Fragment, useState } from "react";
-import { BrowserRouter as Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../main";
 
 const Navbar = () => {
-  const [switchNav, toggleNav] = useState(false);
+  const [switchNav, toggleNav] = useState(true);
   if (!switchNav) {
     var nav1 = "covid-nav covid-nav-black visible";
     var nav2 = "covid-nav covid-nav-red visible ";
@@ -40,14 +40,14 @@ const Navbar = () => {
 
             <ul class="covid-list">
               <li>
-                <Link href="#">Map</Link>
+                <Link to="/">Map</Link>
               </li>
               <li>
-                <Link href="#">History</Link>
+                <Link to="/info">Info</Link>
               </li>
               <li>
-                <span class="act">
-                  <Link href="#">Prepare</Link>
+                <span>
+                  <Link to="/prepare">Prepare</Link>
                 </span>
               </li>
             </ul>
