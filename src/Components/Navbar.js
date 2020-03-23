@@ -47,6 +47,11 @@ const Navbar = () => {
               </li>
               <li>
                 <span>
+                  <Link to="/prevent">Prevent</Link>
+                </span>
+              </li>
+              <li>
+                <span>
                   <Link to="/prepare">Prepare</Link>
                 </span>
               </li>
