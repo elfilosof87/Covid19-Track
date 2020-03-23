@@ -8,7 +8,7 @@ export default class Info extends Component {
     return (
       <Fragment>
         <div className="back">
-          <div class="main">
+          <div className="main">
             <h1 className="marg-top">Covid-19</h1>
             <p>
               Coronavirus disease (COVID-19) is an infectious disease caused by
@@ -41,17 +41,17 @@ export default class Info extends Component {
               disease 2019 (COVID-19) cases. The following symptoms may appear
               2-14 days after exposure.*
             </p>
-            <div class="img-grid" id="white">
+            <div className="img-grid" id="white">
               <div>
-                <img alt="sick" src={sym1} class="img-fluid" />
+                <img alt="sick" src={sym1} className="img-fluid" />
                 <li>Fever</li>
               </div>
               <div>
-                <img src={sym2} alt="" class="img-fluid" />
+                <img src={sym2} alt="" className="img-fluid" />
                 <li>Cough</li>
               </div>
               <div>
-                <img src={sym3} alt="" class="img-fluid" />
+                <img src={sym3} alt="" className="img-fluid" />
                 <li>Shortness of breath</li>
               </div>
             </div>
@@ -92,13 +92,14 @@ export default class Info extends Component {
 
             <h2>For more information refer to the videos below:</h2>
             <center>
-              <div class="vid-space">
-                <div class="vid-pad" id="white">
+              <div className="vid-space">
+                <div
+                  className="vid-pad embed-responsive embed-responsive-16by9"
+                  id="white"
+                >
                   <center>
                     <iframe
                       title="vid1"
-                      width="auto"
-                      height="auto"
                       src="https://www.youtube.com/embed/4OhvJ4wi034"
                       frameborder="0"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -108,13 +109,14 @@ export default class Info extends Component {
                 </div>
               </div>
 
-              <div class="vid-space">
-                <div class="vid-pad" id="white">
+              <div className="vid-space">
+                <div
+                  className="vid-pad embed-responsive embed-responsive-16by9"
+                  id="white"
+                >
                   <center>
                     <iframe
                       title="vid2"
-                      width="auto"
-                      height="auto"
                       src="https://www.youtube.com/embed/BtN-goy9VOY"
                       frameborder="0"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -124,19 +126,19 @@ export default class Info extends Component {
                 </div>
               </div>
 
-              <div class="vid-space">
-                <div class="vid-pad" id="white">
-                  <center>
-                    <iframe
-                      title="vid3"
-                      width="auto"
-                      height="auto"
-                      src="https://www.youtube.com/embed/h9d86ocFlxE"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
-                  </center>
+              <div className="vid-space">
+                <div
+                  className="vid-pad embed-responsive embed-responsive-16by9"
+                  id="white"
+                >
+                  <iframe
+                    title="vid3"
+                    className="embed-responsive embed-responsive-16by9"
+                    src="https://www.youtube.com/embed/h9d86ocFlxE"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
                 </div>
               </div>
             </center>
