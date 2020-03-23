@@ -97,8 +97,8 @@ export default class Info extends Component {
                   <center>
                     <iframe
                       title="vid1"
-                      width="853"
-                      height="480"
+                      width="auto"
+                      height="auto"
                       src="https://www.youtube.com/embed/4OhvJ4wi034"
                       frameborder="0"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -113,8 +113,8 @@ export default class Info extends Component {
                   <center>
                     <iframe
                       title="vid2"
-                      width="853"
-                      height="480"
+                      width="auto"
+                      height="auto"
                       src="https://www.youtube.com/embed/BtN-goy9VOY"
                       frameborder="0"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -129,8 +129,8 @@ export default class Info extends Component {
                   <center>
                     <iframe
                       title="vid3"
-                      width="853"
-                      height="480"
+                      width="auto"
+                      height="auto"
                       src="https://www.youtube.com/embed/h9d86ocFlxE"
                       frameborder="0"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
