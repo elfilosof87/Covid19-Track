@@ -133,6 +133,23 @@ body {
   margin: 20px 0;
 }
 
+.left {
+  background-color: #e3e3e3;
+}
+
+.left > p > ul li {
+  text-align: left;
+  justify-content: center;
+  font-size: 17px !important;
+}
+
+.left > p {
+  text-align: left;
+  justify-content: center;
+  padding: 2.5% 2%;
+  font-size: 17px !important;
+}
+
 .covid-list li a {
   color: rgb(34, 31, 31);
   font-size: 14px;
