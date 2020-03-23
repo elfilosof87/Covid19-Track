@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import sym1 from "./images/sym11.png";
 import sym2 from "./images/sym22.png";
 import sym3 from "./images/sym33.png";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class Info extends Component {
   render() {
@@ -94,29 +95,29 @@ export default class Info extends Component {
             <center>
               <div className="vid-space">
                 <div
-                  className="vid-pad embed-responsive embed-responsive-16by9"
+                  className="embed-responsive embed-responsive-16by9"
                   id="white"
                 >
-                  <center>
-                    <iframe
-                      title="vid1"
-                      src="https://www.youtube.com/embed/4OhvJ4wi034"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
-                  </center>
+                  <iframe
+                    title="vid1"
+                    src="https://www.youtube.com/embed/4OhvJ4wi034"
+                    frameborder="0"
+                    className="embed-responsive-item"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
                 </div>
               </div>
 
               <div className="vid-space">
                 <div
-                  className="vid-pad embed-responsive embed-responsive-16by9"
+                  className="embed-responsive embed-responsive-16by9"
                   id="white"
                 >
                   <center>
                     <iframe
                       title="vid2"
+                      className="embed-responsive-item"
                       src="https://www.youtube.com/embed/BtN-goy9VOY"
                       frameborder="0"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -128,12 +129,12 @@ export default class Info extends Component {
 
               <div className="vid-space">
                 <div
-                  className="vid-pad embed-responsive embed-responsive-16by9"
+                  className="embed-responsive embed-responsive-16by9"
                   id="white"
                 >
                   <iframe
                     title="vid3"
-                    className="embed-responsive embed-responsive-16by9"
+                    className="embed-responsive-item"
                     src="https://www.youtube.com/embed/h9d86ocFlxE"
                     frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
