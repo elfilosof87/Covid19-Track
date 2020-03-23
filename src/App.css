@@ -364,3 +364,26 @@ li {
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
 }
+
+.bot {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  bottom: 0;
+  height: 48px;
+  z-index: 500;
+}
+
+.bot p {
+  margin: 0px 0;
+  padding: 10px 0px;
+}
+
+.bot i {
+  color: red;
+}
+
+.bot a {
+  color: yellow;
+  text-decoration: none;
+}
