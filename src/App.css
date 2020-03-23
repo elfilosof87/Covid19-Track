@@ -143,6 +143,12 @@ body {
   font-size: 17px !important;
 }
 
+.left > ul li {
+  text-align: left;
+  justify-content: center;
+  font-size: 17px !important;
+}
+
 .left > p {
   text-align: left;
   justify-content: center;
