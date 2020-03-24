@@ -7,8 +7,8 @@ export default class Footer extends Component {
       <center>
         <div className="bot">
           <p>
-            Created with <i class="fa fa-heart"></i> by
-            <Link to="/">Maaz Ahmed</Link>
+            Created by
+            <Link to="https://github.com/elfilosof87"> Maaz Ahmed</Link>
           </p>
         </div>
       </center>
