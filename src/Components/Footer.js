@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 
 export default class Footer extends Component {
   render() {
@@ -8,7 +7,14 @@ export default class Footer extends Component {
         <div className="bot">
           <p>
             Created by
-            <a href="https://github.com/elfilosof87"> Maaz Ahmed</a>
+            <a href="https://github.com/elfilosof87" target="_blank">
+              {" "}
+              Maaz Ahmed{" "}
+            </a>{" "}
+            &{" "}
+            <a href="https://github.com/dragneel2000" target="_blank">
+              Joel Samson
+            </a>
           </p>
         </div>
       </center>
