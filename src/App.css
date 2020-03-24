@@ -33,6 +33,7 @@ body {
 }
 .back {
   background-color: #ffc702;
+  padding-top: 35px;
 }
 
 .covid-nav-btn {
@@ -212,6 +213,30 @@ body {
     top: 5px;
     right: 5px;
   }
+  .prep {
+    width: 90% !important;
+  }
+  .iclass {
+    height: 600px;
+    width: 100%;
+  }
+
+  .iclass > iframe {
+    width: 100% !important;
+    height: 100%;
+  }
+
+  .iclass1 {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-content: space-around;
+    align-items: stretch;
+  }
+  .iclass1 > iframe {
+    width: 65%;
+  }
 
   .floating-btn {
     right: 10px;
@@ -224,6 +249,19 @@ body {
   height: 1000px;
   width: 80%;
 }
+
+.iclass1 {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: stretch;
+}
+.iclass1 > iframe {
+  width: 95%;
+}
+
 /*kpe*/
 .img-fluid {
   display: grid;

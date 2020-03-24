@@ -6,15 +6,17 @@ export default class main extends Component {
       <Fragment>
         <center>
           <h1 class="covid-text-map">Covid-19 Statistics and Information</h1>
-          <iframe
-            title="frame1"
-            src="https://public.domo.com/cards/bWxVg"
-            width="900"
-            height="600"
-            marginheight="0"
-            marginwidth="0"
-            frameborder="0"
-          ></iframe>
+          <div className="iclass1">
+            <iframe
+              title="frame1"
+              src="https://public.domo.com/cards/bWxVg"
+              width="80%"
+              height="100%"
+              marginheight="0"
+              marginwidth="0"
+              frameborder="0"
+            ></iframe>
+          </div>
         </center>
       </Fragment>
     );
