@@ -22,6 +22,7 @@ function App() {
         <Route exact path="/prepare" component={Prepare} />
         <Route exact path="/prevent" component={Prevent} />
         <Route exact path="/faq" component={Faq} />
+        <Footer />
       </Fragment>
     </Router>
   );
