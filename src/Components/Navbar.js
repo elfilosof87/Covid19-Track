@@ -40,7 +40,10 @@ const Navbar = () => {
 
             <ul class="covid-list">
               <li>
-                <Link to="/">Map</Link>
+                <Link to="/">World Live Map</Link>
+              </li>
+              <li>
+                <Link to="/india">India Live Map</Link>
               </li>
               <li>
                 <Link to="/info">Info</Link>

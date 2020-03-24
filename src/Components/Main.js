@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class main extends Component {
   render() {
@@ -7,7 +6,6 @@ export default class main extends Component {
       <Fragment>
         <center>
           <h1 class="covid-text-map">Covid-19 Statistics and Information</h1>
-
           <iframe
             title="frame1"
             src="https://public.domo.com/cards/bWxVg"
