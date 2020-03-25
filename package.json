@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
     "react": "^16.13.1",
@@ -20,7 +21,7 @@
     "semantic-ui-react": "^0.88.2"
   },
   "scripts": {
-    "start": "node server/server.js",
+    "start": "react-scripts run",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -39,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": "13.x"
   }
 }

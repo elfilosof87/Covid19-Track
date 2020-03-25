@@ -8,8 +8,8 @@ import Info from "./Components/Info";
 import Prepare from "./Components/Prepare";
 import Faq from "./Components/Faq";
 import Prevent from "./Components/Prevent";
-import Footer from "./Components/Footer";
 import India from "./Components/India";
+import News from "./Components/News";
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
         <Route exact path="/prepare" component={Prepare} />
         <Route exact path="/prevent" component={Prevent} />
         <Route exact path="/faq" component={Faq} />
+        <Route exact path="/news" component={News} />
       </Fragment>
     </Router>
   );

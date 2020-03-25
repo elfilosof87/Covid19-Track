@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif&display=swap");
 
 * {
   box-sizing: border-box;
@@ -55,9 +56,19 @@ body {
 
 #white {
   background-color: white;
+  border-collapse: collapse !important;
 }
 .vid-space {
   padding: 10px 0px;
+}
+.news-box {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  padding: 15px;
+  margin: 15px 0px;
+}
+
+.newsimg {
+  height: 220px;
 }
 
 .vid-pad {
@@ -427,4 +438,8 @@ li {
 .bot a {
   color: yellow;
   text-decoration: none;
+}
+
+.title {
+  font-family: "PT Serif", serif;
 }
