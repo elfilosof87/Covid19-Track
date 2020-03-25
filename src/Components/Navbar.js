@@ -45,6 +45,9 @@ const Navbar = () => {
               <li>
                 <Link to="/india">India Live Map</Link>
               </li>
+              <li>
+                <Link to="/news">India News</Link>
+              </li>
 
               <li>
                 <span>
