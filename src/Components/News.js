@@ -9,7 +9,7 @@ export class News extends Component {
     axios({
       method: "GET",
       url:
-        "http://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=16031090f5d54fc3927b037d85ab1cf1"
+        "https://gnews.io/api/v3/search?q=covid-19,india&token=1a59e6bebb56860e14cba3f15c950d66"
     })
       .then(res => {
         this.setState({ news: res.data.articles });
