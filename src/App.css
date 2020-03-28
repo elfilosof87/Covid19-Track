@@ -252,7 +252,7 @@ body {
     align-items: stretch;
   }
   .iclass1 > iframe {
-    width: 65%;
+    width: 100% !important;
   }
 
   .floating-btn {
@@ -276,7 +276,7 @@ body {
   align-items: stretch;
 }
 .iclass1 > iframe {
-  width: 95%;
+  width: 55%;
 }
 
 /*kpe*/
