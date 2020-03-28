@@ -4,7 +4,7 @@ export default class Advanced extends Component {
   render() {
     return (
       <div className="back">
-        <div className="iclass1 ">
+        <div className="iclass2 ">
           <iframe
             title="frame1"
             className="gap"
@@ -16,7 +16,7 @@ export default class Advanced extends Component {
             frameborder="0"
           ></iframe>
         </div>
-        <div className="iclass1 ">
+        <div className="iclass2 ">
           <iframe
             title="frame1"
             className="gap"
@@ -28,7 +28,7 @@ export default class Advanced extends Component {
             frameborder="0"
           ></iframe>
         </div>
-        <div className="iclass1">
+        <div className="iclass2">
           <iframe
             title="frame1"
             className="gap"
