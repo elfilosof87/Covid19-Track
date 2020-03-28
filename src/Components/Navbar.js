@@ -49,6 +49,9 @@ const Navbar = () => {
                 <Link to="/advanced">Global Statistics</Link>
               </li>
               <li>
+                <Link to="/news">Covid-19 News</Link>
+              </li>
+              <li>
                 <Link to="/prepare">Prepare</Link>
               </li>
               <li>
