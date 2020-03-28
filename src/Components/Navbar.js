@@ -45,11 +45,11 @@ const Navbar = () => {
               <li>
                 <Link to="/india">India Live Map</Link>
               </li>
-
               <li>
-                <span>
-                  <Link to="/prepare">Prepare</Link>
-                </span>
+                <Link to="/advanced">Global Statistics</Link>
+              </li>
+              <li>
+                <Link to="/prepare">Prepare</Link>
               </li>
               <li>
                 <Link to="/faq">FAQ</Link>

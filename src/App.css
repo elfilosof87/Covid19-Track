@@ -17,6 +17,11 @@ body {
   margin-top: auto;
 }
 
+.gap {
+  border-bottom: 1px dashed #3e3e3e;
+  border-collapse: collapse;
+}
+
 .covid-text {
   text-transform: uppercase;
   padding-bottom: 20px;
@@ -35,6 +40,7 @@ body {
 .back {
   background-color: #ffc702;
   padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .covid-nav-btn {
@@ -62,9 +68,9 @@ body {
   padding: 10px 0px;
 }
 .news-box {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   padding: 15px;
   margin: 15px 0px;
+  border-bottom: 1px solid #3e3e3e;
 }
 
 .newsimg {
