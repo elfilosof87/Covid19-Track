@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Moment from "react-moment";
 
 const NewsItem = ({
-  stats: { _id, source, title, description, url, image, publishedAt }
+  stats: { _id, source, title, description, url, image, publishedAt },
 }) => {
   return (
     <div className="col-sm-12 news-box">

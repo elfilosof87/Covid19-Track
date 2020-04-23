@@ -11,6 +11,7 @@ import Prevent from "./Components/Prevent";
 import India from "./Components/India";
 import News from "./Components/News";
 import Advanced from "./Components/Advanced";
+import Beds from "./Components/Beds";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route exact path="/faq" component={Faq} />
         <Route exact path="/news" component={News} />
         <Route exact path="/advanced" component={Advanced} />
+        <Route exact path="/beds" component={Beds} />
       </Fragment>
     </Router>
   );

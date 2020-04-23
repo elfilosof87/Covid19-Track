@@ -22,23 +22,23 @@ const Navbar = () => {
         className="covid-nav-btn covid-open-btn"
         onClick={() => toggleNav(!switchNav)}
       >
-        <i class="fas fa-bars"></i>
+        <i className="fas fa-bars"></i>
       </button>
 
       <div className={nav1}>
         <div className={nav2}>
           <div className={nav3}>
             <button className={nav4} onClick={() => toggleNav(!switchNav)}>
-              <i class="fas fa-times"></i>
+              <i className="fas fa-times"></i>
             </button>
 
             <img
-              class="covid-logo"
+              className="covid-logo"
               src="https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_2/v1581911979/sas/wjpdipgnemywcwaq6hrx/COVID-19-webpage-logo.png"
               alt="covidLogo"
             />
 
-            <ul class="covid-list">
+            <ul className="covid-list">
               <li>
                 <Link to="/">World Live Map</Link>
               </li>
@@ -52,8 +52,12 @@ const Navbar = () => {
                 <Link to="/news">Covid-19 News</Link>
               </li>
               <li>
+                <Link to="/beds">Hospital Data</Link>
+              </li>
+              <li>
                 <Link to="/prepare">Prepare</Link>
               </li>
+
               <li>
                 <Link to="/faq">FAQ</Link>
               </li>
