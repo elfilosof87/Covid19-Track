@@ -15,24 +15,24 @@ A simple tracker I built in my free time to track the Covid-19 pandemic statisti
 ## GLOBAL STATS
 
 <p align="center">
-  <img src="screenshots/landing.png" alt="hi" class="inline"/>
+  <img src="screenshots/main.png" alt="hi" class="inline"/>
 </p>
 
 ## COMPARISON GRAPHS 1
 
 <p align="center">
-  <img src="screenshots/login.png" alt="hi" class="inline"/>
+  <img src="screenshots/graph1.png" alt="hi" class="inline"/>
 </p>
 
 ## COMPARISON GRAPHS 2
 
 <p align="center">
-  <img src="screenshots/register.png" alt="hi" class="inline"/>
+  <img src="screenshots/graph2.png" alt="hi" class="inline"/>
 </p>
 
 ## COMPARISON GRAPHS 3
 
 <p align="center">
-  <img src="screenshots/menu.png" alt="hi" class="inline"/>
+  <img src="screenshots/graph3.png" alt="hi" class="inline"/>
 </p>
 
