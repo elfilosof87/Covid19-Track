@@ -33,6 +33,6 @@ A simple tracker I built in my free time to track the Covid-19 pandemic statisti
 ## COMPARISON GRAPHS 3
 
 <p align="center">
-  <img src="screenshots/graph3.png" alt="hi" class="inline"/>
+  <img src="screenshots/graph4.png" alt="hi" class="inline"/>
 </p>
 
